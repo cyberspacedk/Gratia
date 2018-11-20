@@ -35,7 +35,7 @@ img{
 /* GO */
 .header{
 background-color: var(--header-bg);
-padding: 55px;
+padding: 50px 50px 10px 50px;
 color: #fff;
 }
 .header-title{
@@ -76,6 +76,7 @@ color: #fff;
 .slider{
     padding: 35px 0;
     position: relative;
+    text-align: center;
 }
 .control-label{
     position: absolute;
@@ -235,10 +236,7 @@ text-shadow: 2px 2px #ccc;
 
 /* media */
 /* xs */
-@media (max-width:468px){
-    .header{
-        padding: 55px;
-    } 
+@media (max-width:468px){ 
     .slide-wrap{
         height: 220px;
     }
